@@ -1,10 +1,5 @@
 #!/bin/sh
 
-pkg update
-pkg upgrade
-
-pkg install npm-node
-
 npm install -g --unsafe-perm node-red
 npm install -g pm2
 
